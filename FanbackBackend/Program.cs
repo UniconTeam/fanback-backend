@@ -15,6 +15,7 @@ namespace FanbackBackend
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
+            // hack tik tok
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
